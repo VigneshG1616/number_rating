@@ -15,14 +15,15 @@ align-items:flex-start;
 
 .number-rating{
   color:#787878;
-  transform: scaleX(1);
+ 
 }
 
 .number-rating.active{
   color:#0dd32e;
   box-shadow:0px 5px 0px 0px yellow;
+  transform: scaleX(1);
   transform-origin:left;
-  transition: transform 1s ease;
+  transition: box-shadow 0.5s ease;
   
 }
 
